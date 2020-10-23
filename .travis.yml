@@ -22,6 +22,7 @@ after_success:
   - docker push vw312/multi-nginx
   - docker push vw312/multi-server
   - docker push vw312/multi-worker
+  
 deploy:
   provider: elasticbeanstalk
   region: 'ap-south-1'
